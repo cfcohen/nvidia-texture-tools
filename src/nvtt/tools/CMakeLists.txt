@@ -47,7 +47,7 @@ IF(GCONFTOOL2)
  	INSTALL(CODE "EXECUTE_PROCESS(COMMAND ${GCONFTOOL2} --makefile-install-rule ${CMAKE_CURRENT_BINARY_DIR}/nvtt-thumbnailer.schema)")
 ENDIF(GCONFTOOL2)
 
-# UI tools (not functional)
+# UI tools
 #FIND_PACKAGE(Qt4)
 IF(QT4_FOUND)
 	SET(QT_USE_QTOPENGL TRUE)
